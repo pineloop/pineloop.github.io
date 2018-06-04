@@ -1,175 +1,138 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Yao Adzaku - adzaku.com</title>
-	<meta name="description" content="Yao Adzaku, Software Developer & Entrepreneur. Distributed Systems, Microservices, Erlang/OTP, Elixir, Python, and Go">
-        <meta name="author" content="Yao Adzaku">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Yao Adzaku</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hacker & Entreprenuer">
+    <meta name="author" content="Yao Adzaku">
+    <link rel="shortcut icon" type="image/x-icon" href="http://adzaku.com/static/favicon.png">
 
+    <meta property="og:title" content="Yao Adzaku">
+    <meta property="og:description" content="Hacker & Entreprenuer">
+    <meta property="og:image" content="http://adzaku.com/static/profile.jpg">
+    <meta property="og:url" content="http://adzaku.com">
     <meta property="og:site_name" content="Yao Adzaku">
-    <meta property="og:title" content="Yao Adzaku - Software Developer & Entrepreneur">
-    <meta property="og:description" content="I build and ship technology products">
-    <meta property="og:image" content="static/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta name="twitter:image" content="http://adzaku.com/static/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Yao Adzaku">
+    <meta name="twitter:site" content="@moonboots_">
+    <meta name="twitter:creator" content="@moonboots_">
+    <meta name="twitter:description" content="Hacker & Entreprenuer">
+
+    <script type="application/ld+json">
+    [{
+        "@context": "http://schema.org/",
+        "@type": "WebSite",
+        "name": "Yao Adzaku",
+        "url": "http://adzaku.com"
+    },{
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Yao Adzaku",
+        "url": "http://adzaku.com",
+        "image": "http://adzaku.com/static/profile.jpg",
+        "jobTitle": "Creator",
+        "sameAs": [
+            "https://twitter.com/moonboots_",
+            "https://instagram.com/moonboots_",
+            "https://www.linkedin.com/in/yaoadzaku/"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Sendhut"
+        }
+    }]
+    </script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<style type="text/css">
-      /*
-      Include this after bootstrap.css. Add class of
-      vert-offset-top-value or vert-offset-bottom-value
-      to your Bootstrap 3 default rows to prevent row content
-      from touching the row content above or below.
+    <style type="text/css">
+    @import "static/fonts/Cereal/cereal.css";
+    body {
+        color: #383838;
+        font-family: Cereal, Helvetica Neue, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        background: #fff;
+    }
+    a:link, a:visited {
+        color: #444;
+    }
 
-      credits: https://gist.github.com/erobert17/9139147
-      */
+    a:hover {
+        color: #337ab7;
+    }
 
-        /* Vertical Offset Bottom */
-        .vert-offset-top-12{
-            margin-top: 12em;
-        }
-        .vert-offset-top-11{
-            margin-top: 11em;
-        }
-        .vert-offset-top-10{
-            margin-top: 10em;
-        }
-        .vert-offset-top-9{
-            margin-top: 9em;
-        }
-        .vert-offset-top-8{
-            margin-top: 8em;
-        }
-        .vert-offset-top-7 {
-            margin-top: 7em;
-        }
-        .vert-offset-top-6{
-            margin-top: 6em;
-        }
-        .vert-offset-top-5{
-            margin-top: 5em;
-        }
-        .vert-offset-top-4{
-            margin-top: 4em;
-        }
-        .vert-offset-top-3{
-            margin-top: 3em;
-        }
-        .vert-offset-top-2{
-            margin-top: 2em;
-        }
-        .vert-offset-top-1{
-            margin-top: 1em;
-        }
-        .vert-offset-top-0{
-            margin-top: 0em;
-        }
-        /* Vertical Offset Bottom */
-        .vert-offset-bottom-12{
-            margin-bottom: 12em;
-        }
-        .vert-offset-bottom-11{
-            margin-bottom: 11em;
-        }
-        .vert-offset-bottom-10{
-            margin-bottom: 10em;
-        }
-        .vert-offset-bottom-9{
-            margin-bottom: 9em;
-        }
-        .vert-offset-bottom-8{
-            margin-bottom: 8em;
-        }
-        .vert-offset-bottom-7{
-            margin-bottom: 7em;
-        }
-        .vert-offset-bottom-6{
-            margin-bottom: 6em;
-        }
-        .vert-offset-bottom-5{
-            margin-bottom: 5em;
-        }
-        .vert-offset-bottom-4{
-            margin-bottom: 4em;
-        }
-        .vert-offset-bottom-3{
-            margin-bottom: 3em;
-        }
-        .vert-offset-bottom-2{
-            margin-bottom: 2em;
-        }
-        .vert-offset-bottom-1{
-            margin-bottom: 1em;
-        }
-        .vert-offset-bottom-0{
-            margin-bottom: 0em;
-        }
+    p.title {
+        font-size: 3rem !important;
+    }
 
-        a:link, a:visited {
-            color: #444;
-        }
+    ul {
+        display: inline-block; padding: 0.6rem 0 0.3rem 0;
+    }
+    li {
+        list-style: none; margin: 0 0.3rem; float: left;
+    }
+    li > a {
+        color: #000; letter-spacing: 0.1em;
+        text-decoration: none; display: block; padding: 0.9rem 1rem;
+    }
+    li > a:hover {
+        background-color: #fff;
+    }
 
-        a:hover {
-            color: #337ab7;
-        }
-
-        p.title {
-            font-size: 3rem !important;
-        }
-
-        ul {
-            display: inline-block; padding: 0.6rem 0 0.3rem 0;
-        }
-        li {
-            list-style: none; margin: 0 0.3rem; float: left;
-        }
-        li > a {
-            color: #000; letter-spacing: 0.1em;
-            text-decoration: none; display: block; padding: 0.9rem 1rem;
-        }
-        li > a:hover {
-            background-color: #fff;
-      }
-
-      a.talk { color: #337ab7 }
+    a.talk { color: #337ab7 }
+    .container-fluid {
+        padding-top: 60px !important;
+    }
     </style>
-</head>
-<body>
-  <div id="container">
+  </head>
+  <body>
+    <div class="container-fluid">
 
-    <div class="col-md-6 col-md-offset-3 vert-offset-top-10">
-        <p class="title">Yao Adzaku</p>
-		<p class="blocktext">I'm a programmer and entrepreneur currently based in Lagos. I'm interested in what I call meta-development, which can be anything from the tools and routines to ideas used in building software and even big cities. I love travelling, hiking, and exploring new cities.</p>
+      <div class="col-md-9">
+        <h1>Yao Adzaku</h1> <h5>nice to meet you 🖖</h5> <br>
+
+        <p class="blocktext">I'm a multidisciplinary software developer based in Lagos.
+          Being an end-to-end developer, I provide professional support in all phases of the product development
+          cycle including ideation, user research, UI/UX design, prototyping, branding and software development.</p>
+          <p>
+          </p>
+        <p>I'm interested in what I call meta-development, which can be anything from the tools and routines to ideas used in building software and even big cities. I love travelling, hiking, and exploring new cities.</p>
         <p>Email: <a href="mailto:yao@adzaku.com">yao@adzaku.com</a> </p>
-        <p>Have a project I can help with? Let's talk :)</p>
+        <p>I'm always happy to talk. Say hello.</p>
 
         <div class="social-links">
-          <a href="http://github.com/rpip">
-              <span class="fa-stack social-icon">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
+          <a href="http://github.com/rpip" target="_blank">
+            <span class="fa-stack social-icon">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
           </a>
-          <a href="http://instagram.com/moonboots_">
-              <span class="fa-stack social-icon">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
+          <a href="http://instagram.com/moonboots_" target="_blank">
+            <span class="fa-stack social-icon">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
           </a>
-          <a href="https://twitter.com/moonboots_">
-              <span class="fa-stack social-icon">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
+          <a href="https://twitter.com/moonboots_" target="_blank">
+            <span class="fa-stack social-icon">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
           </a>
-          <a href="https://www.linkedin.com/in/yaoadzaku">
-              <span class="fa-stack social-icon">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
+          <a href="https://www.linkedin.com/in/yaoadzaku" target="_blank">
+            <span class="fa-stack social-icon">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
           </a>
         </div>
-	</div>
-  </div>
-</body>
+	  </div>
+    </div>
+  </body>
 </html>
