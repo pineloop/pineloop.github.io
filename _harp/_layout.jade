@@ -1,0 +1,15 @@
+doctype html
+html
+  != partial("_partials/head")
+  body
+    != partial("_partials/header")
+
+    main
+      section.about
+        .container
+          h2.section-title About
+          != yield
+      != partial("_partials/services")
+
+  != partial("_partials/footer")
+  != partial("_partials/scripts")

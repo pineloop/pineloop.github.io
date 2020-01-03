@@ -1,0 +1,16 @@
+section.news#services
+  .container
+    h2.section-title Services
+
+    p I'm currently available to help with any type of project. I can help you to specify your problem and solve this problem in the most cost-effective way. If this involves writing custom code, I can select the right technologies, and design and implement the software that solves your problem. I strive to develop applications that are both efficient and user-friendly.
+
+    p I have been involved in a couple of startups, and been part of the founding team for a few companies. So besides software development, I can also reason about business models and work out strategies for product, operations and growth.
+
+    ul
+      for service in public._data.services
+        li.service
+          h3.service__title #{service.title}:
+          p.service__description #{service.description}
+
+
+    p My work is subject to the <a href="assets/playbook.pdf">General Magic terms and conditions</a>. They're pretty reasonable, though ;-)

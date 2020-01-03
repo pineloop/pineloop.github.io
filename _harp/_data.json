@@ -1,0 +1,58 @@
+{
+  "about": {
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "http://github.com/rpip",
+        "icon": "fa-github-alt"
+      },
+      {
+        "title": "Twitter",
+        "url": "http://twitter.com/moonboots233",
+        "icon": "fa-twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "http://linkedin.com/in/yaoadzaku",
+        "icon": "fa-linkedin"
+      },
+      {
+        "title": "Resume",
+        "url": "assets/resume.pdf",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "title": "Services",
+      "url": "#services"
+    },
+    {
+      "title": "Tools of the Trade",
+      "url": "#tools"
+    }
+  ],
+  "services": [
+    {
+      "title": "Rapid Development",
+      "description": "My work experience have been quite different from each other so far in terms of technology stacks as well as company culture, size and field of business. This has helped me develop a broad set of skills and a good view on how things should and should not be done in different contexts. If you’re just starting out or you’ve got a project that's a little out of control, I can help you get it back on track."
+    },
+    {
+      "title": "Performance",
+      "description": "I can do a full overhaul of your software and systems to tune-up the performance and reduce costs, by redesigning algorithms and tools for efficiency and improve the performance."
+    },
+    {
+      "title": "Scalability",
+      "description": "Want advice on moving to a service oriented architecture? Considering refactoring a large, legacy codebase? Or maybe looking at switching database and looking for a second opinion, and help with the migration? I can help."
+    },
+    {
+      "title": "Data Science",
+      "description": "I can extract knowledge, build systems, and automate processes."
+    },
+    {
+      "title": "Blockchain integrations",
+      "description": "Different blockchains require different approaches; I figure them all out and abstract out their complexities so that you don't need to."
+    }
+  ]
+}
