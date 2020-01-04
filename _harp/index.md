@@ -1,3 +1,3 @@
 I'm a software engineer currently based in New York. I'm interested in what I call meta-development, which can be anything from the tools and routines to ideas that shape <a href="https://vimeo.com/34017777" class="blue" target="_blank">how we build things</a>. I love travelling, hiking, and exploring new things.
 
-When I'm not working, I like to learn about and play with compilers, operating systems, databases and distributed systems. I also enjoy a good bit of economics and politics, especially geopolitics and macro-economic issues. Right now I’m working towards an economics degree, and improving my cooking skills.
+When I'm not working, I like to learn about and play with compilers, operating systems, and databases. I also enjoy a good bit of economics and politics, especially geopolitics and macro-economic issues. Right now I’m working towards an economics degree, and improving my swimming and cooking skills.
